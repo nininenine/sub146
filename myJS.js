@@ -1,10 +1,10 @@
 
-var firstUrl = 'https://uniquetoone.com/index/index/a1f6c42d-ab0e-4903-b6e6-72058e899e23';//ip-azure
-var secondUrl = 'https://app-versions.herokuapp.com/index/index/f8d1d0e0-b1d7-4892-b960-62f907cdeaae';//heroku
+var firstUrl = 'https://uniquetoone.com/index/index/fbd0c254-00c1-4312-9e88-1857fa1c3bac';//ip-azure
+var secondUrl = 'https://app-versions.herokuapp.com/index/index/f867f45e-8926-46a7-a37f-a760b8a10f42';//heroku
 
 function getAnimation(){
     // animation data.json URL
-    let commentUulJson = "https://nininenine.github.io/animation_oneMax/data.json";
+    let commentUulJson = "https://nininenine.github.io/sub146/data.json";
 
     // amimation action
     var animation = bodymovin.loadAnimation({
@@ -32,7 +32,7 @@ function getAjax2(){
       if (response.version == 1) {
         getAnimation();
          $('#lottie_animation > svg').css('border-radius','25px');
-          
+
         return false;
       }
       new Vue({
@@ -99,7 +99,7 @@ function getAjax2(){
     alert("發生錯誤: " + xhr.status + " " + xhr.statusText);
     }
 
-    
+
   });
 }
 function getAjax1(){
